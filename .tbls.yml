@@ -1,0 +1,2 @@
+dsn: sqlite:///work/db/development.sqlite3
+docPath: work/dbdoc

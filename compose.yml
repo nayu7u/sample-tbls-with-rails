@@ -14,4 +14,8 @@ services:
       - ./:/workspace
     user: "${UID}:${GID}"
     tty: true
-
+  tbls:
+    image: "k1low/tbls:latest"
+    volumes:
+      - ./:/work
+    command: doc --config=/work/.tbls.yml
